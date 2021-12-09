@@ -1,0 +1,18 @@
+{
+  "name": "tailwindcss-test",
+  "version": "1.0.0",
+  "description": "Test tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build -i src/style.css -o dist/style.css"
+  },
+  "keywords": [
+    "tailwind",
+    "css"
+  ],
+  "author": "Jen-Chieh Shen",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
